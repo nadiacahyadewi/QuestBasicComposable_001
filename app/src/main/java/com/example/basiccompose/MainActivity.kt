@@ -1,5 +1,6 @@
 package com.example.basiccompose
 
+import android.graphics.fonts.FontFamily
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -66,7 +67,9 @@ fun BasicCompose (modifier: Modifier = Modifier){
         Text(text = "Nadia Cahya Dewi",
             style = TextStyle(
                 fontSize = 35.sp,
-            ))
+                fontStyle = FontStyle.Italic,
+            )
+        )
 
     }
 }
