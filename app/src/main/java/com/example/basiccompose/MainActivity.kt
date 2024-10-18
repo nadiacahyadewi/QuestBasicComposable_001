@@ -74,7 +74,9 @@ fun BasicCompose (modifier: Modifier = Modifier){
         Text(text = "20220140001",
             style = TextStyle(
                 fontSize = 25.sp,
-            ))
+                fontStyle = FontStyle.Normal,
+            )
+        )
 
     }
 }
