@@ -71,6 +71,7 @@ fun BasicCompose (modifier: Modifier = Modifier){
                 color = Color.Red
             )
         )
+        Text(text = "20220140001")
 
     }
 }
