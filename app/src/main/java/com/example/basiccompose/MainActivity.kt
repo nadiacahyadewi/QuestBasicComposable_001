@@ -68,6 +68,7 @@ fun BasicCompose (modifier: Modifier = Modifier){
             style = TextStyle(
                 fontSize = 35.sp,
                 fontStyle = FontStyle.Italic,
+                color = Color.Red
             )
         )
 
