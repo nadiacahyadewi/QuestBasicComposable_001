@@ -65,6 +65,7 @@ fun BasicCompose (modifier: Modifier = Modifier){
 
         Text(text = "Nadia Cahya Dewi",
             style = TextStyle(
+                fontSize = 35.sp,
             ))
 
     }
