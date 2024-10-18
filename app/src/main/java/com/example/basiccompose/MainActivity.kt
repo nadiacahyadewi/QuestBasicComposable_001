@@ -60,9 +60,12 @@ fun BasicCompose (modifier: Modifier = Modifier){
         Image(painter = painterResource(id = R.drawable.fifa), contentDescription = null,
             modifier = Modifier.size(width = 200.dp, height = 200.dp)
         )
+        Text(text = "NAMA")
 
     }
 }
+
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
