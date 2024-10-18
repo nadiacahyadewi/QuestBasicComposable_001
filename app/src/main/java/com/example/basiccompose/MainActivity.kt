@@ -75,6 +75,7 @@ fun BasicCompose (modifier: Modifier = Modifier){
             style = TextStyle(
                 fontSize = 25.sp,
                 fontStyle = FontStyle.Normal,
+                color = Color.Gray
             )
         )
 
