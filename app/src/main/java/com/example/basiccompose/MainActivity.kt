@@ -78,7 +78,8 @@ fun BasicCompose (modifier: Modifier = Modifier){
                 color = Color.Gray
             )
         )
-        Image(painter = painterResource(id = R.drawable.nadia), contentDescription = null,)
+        Image(painter = painterResource(id = R.drawable.nadia), contentDescription = null,
+            modifier = Modifier.size(200.dp))
 
     }
 }
