@@ -63,6 +63,8 @@ fun BasicCompose (modifier: Modifier = Modifier){
         Text(text = "NAMA", modifier = modifier,
             fontSize = 50.sp, color = Color.Black, fontWeight = FontWeight.Bold,)
 
+        Text(text = "Nadia Cahya Dewi",)
+
     }
 }
 
